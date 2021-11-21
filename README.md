@@ -149,8 +149,8 @@ b. sed -n '1,3p' employees:
 c. sed -n '8,$p' employees:
 
 ```
->>employees는 파일 이름 임.
->>여기서 -n 는 작업한 부분만 억제해서 출력시키는 옵션이다. p와 같이 써줘야 한다.
+>employees는 파일 이름 임.
+>여기서 -n 는 작업한 부분만 억제해서 출력시키는 옵션이다. p와 같이 써줘야 한다.
 
 ![12412444](https://user-images.githubusercontent.com/94778099/142762516-b3d2b1d9-ce5b-4067-833c-66abcd3f4abc.PNG)
 >>이것은 출력 결과 입니다.
@@ -238,6 +238,9 @@ etc. SED subcommand 명령어 종류와 의미
 | y | 한 문자를 다른 문자로 변환한다. (y에 정규표현식 메타문자를 사용할 수 없다.)|
 
 출처 및 참고자료 : https://jhnyang.tistory.com/287#google_vignette
+
+----
+
 
 ### awk 명령어
 
